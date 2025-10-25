@@ -1,0 +1,14 @@
+[project]
+name = "eureka-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django-filter>=25.2",
+    "djangorestframework>=3.16.1",
+    "djangorestframework-simplejwt>=5.5.1",
+    "markdown>=3.9",
+    "psycopg2-binary>=2.9.11",
+    "python-decouple>=3.8",
+]
