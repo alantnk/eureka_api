@@ -5,10 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "django-cleanup>=9.0.0",
     "django-filter>=25.2",
+    "django-resized>=1.0.3",
     "djangorestframework>=3.16.1",
     "djangorestframework-simplejwt>=5.5.1",
     "markdown>=3.9",
+    "pre-commit>=4.5.0",
     "psycopg2-binary>=2.9.11",
     "python-decouple>=3.8",
 ]
